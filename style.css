@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: thistle;
+}
+header {
+    border-bottom: 1px solid gray;
+    padding: 25px;
+    color: rgb(43, 38, 43);
+}
+footer {
+    border-top: 1px solid gray;
+    padding: 25px;
+}
+main {
+    background-color: antiquewhite;
+}
+article {
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: burlywood;
+    padding: 15px;
+    margin: 25px;
+}
+article:hover {
+    background-color: yellowgreen;
+}
+article>h2 {
+    display: none;
+}
+article>img {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
